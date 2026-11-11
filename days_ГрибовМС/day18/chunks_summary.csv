@@ -1,0 +1,10 @@
+source,chunk_id,length
+conditions.txt,0,250
+conditions.txt,1,73
+functions.txt,0,242
+functions.txt,1,42
+lists.txt,0,223
+loops.txt,0,236
+loops.txt,1,36
+python_basics.txt,0,225
+variables.txt,0,228

@@ -1,0 +1,10 @@
+Цикл for перебирает элементы последовательности.
+for i in range(5):
+print(i)
+Цикл while выполняется, пока условие истинно.
+count = 0
+while count < 3:
+print(count)
+count += 1
+break прерывает цикл.
+continue переходит к следующей итерации.

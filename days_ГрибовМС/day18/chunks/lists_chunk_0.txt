@@ -1,0 +1,10 @@
+Список — упорядоченная изменяемая коллекция.
+numbers = [1, 2, 3, 4, 5]
+print(numbers[0])
+print(numbers[-1])
+numbers.append(6)
+numbers.remove(3)
+for item in numbers:
+print(item)
+Срезы: numbers[1:4]
+Длина списка: len(numbers)

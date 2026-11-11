@@ -1,0 +1,38 @@
+# 1. Создаем новое окружение venv
+python3 -m venv venv
+
+# 2. Активируем его
+source venv/bin/activate
+
+# 3. Обновляем pip и ставим библиотеки для вашего кода
+pip install --upgrade pip
+pip install gigachat python-dotenv
+
+# 4. Создаем файл для API-ключа
+touch .env
+
+
+
+
+
+
+GIGACHAT_CREDENTIALS=MDFhMTc4MmYtYTFlNy03MGY3LWIzODItMzU4NzdmMmNmMmQ1OjlkMWU3NTc0LWEyODUtNDhlMC04YzZkLTExZTNhZDk2ZWI5NQ==
+GIGACHAT_SCOPE=GIGACHAT_API_PERS
+
+
+
+
+
+
+
+Создаем окружение с доступом к системным библиотекам и включаем его
+python3 -m venv --system-site-packages venv
+source venv/bin/activate
+
+Переходим в папку со скриптом
+cd "/home/student/Рабочий стол/days_Грибов/days_ГрибовМС/my_ai_project day12-15"
+
+Создаем файл .env и открываем его в редакторе
+touch .env
+
+python3 final_day15.py
